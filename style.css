@@ -1,0 +1,60 @@
+/*
+Theme Name: Maria 2016
+Description: Maria's Theme
+Author: Maria Steblyanko & Joshua Hartwell
+Author URI: http://www.mariasmosaic.com
+Version: develop
+
+License: GNU General Public License v2.0
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+
+Copyright Maria Steblyanko http://www.mariasmosaic.com
+*/
+
+* { margin: 0px; padding: 0px; }
+body { background-color: hsla(34, 33%, 85%, 1); font-family: "Playfair Display", "Georgia", serif; font-size: 100%; word-wrap: break-word; }
+.constrained-to-mid { width: 70%; margin-left: auto; margin-right: auto; }
+
+#header-background { margin-top: 0px; background: url('images/header-background.jpg'); background-size: cover; }
+#page-header { text-align: center; display: block; background-color: rgba(241,235,227,.65); height: 120px; padding-top: 30px; }
+#blog-name-link, #blog-name-link:visited { color: black; font-size: 1.2em; text-decoration: none; font-weight: bold; }
+#blog-tagline { font-style: italic; font-weight: normal; font-size: 1.4em; margin-bottom: 30px; }
+
+#content { background-color: hsla(34, 33%, 95%, 1); color: hsla(34, 33%, 15%, 1) }
+.post-summary-table { display: table; padding: 20px 10px; }
+.post-summary-thumbnail { display: table-cell; width: 150px; }
+.post-summary-thumbnail img { border: 2px solid hsla(34, 33%, 15%, 1); border-radius: 10px }
+.post-summary-body { padding-left: 20px; display: table-cell; vertical-align: top; }
+.post-summary-date { margin-bottom: 15px; margin-top: 5px; font-style: oblique; font-weight: bold; }
+.post-summary-body>h1>a, .post-summary-body>h1>a:visited { text-decoration: none; font-size: 1.3em; color: hsla(34, 33%, 15%, 1) }
+.post-summary-body>h1>a:hover { color: hsla(34, 33%, 34%, 1.0); }
+
+#footer-background { background: url('images/header-background.jpg'); background-size: cover; }
+#footer { text-align: center; display: block; background-color: rgba(241,235,227,.65); height: 40px; }
+#footer a, #footer a:visited { font-size: 1.15em; color: black; text-decoration: none; font-weight: bold; margin: 7px 30px 0px; display: inline-block;  }
+
+
+/* For captioned images, recommended by http://codex.wordpress.org/CSS */
+/* Begin */
+.alignnone{margin:5px 20px 20px 0}
+.aligncenter, div.aligncenter{display:block;margin:5px auto 5px auto}
+.alignright{float:right;margin:5px 0 20px 20px}
+.alignleft{float:left;margin:5px 20px 20px 0}
+.aligncenter{display:block;margin:5px auto 5px auto}
+a img.alignright{float:right;margin:5px 0 20px 20px}
+a img.alignnone{margin:5px 20px 20px 0}
+a img.alignleft{float:left;margin:5px 20px 20px 0}
+a img.aligncenter{display:block;margin-left:auto;margin-right:auto}
+.wp-caption{ background:#fff;border:1px solid #f0f0f0;max-width:80%;padding:10px 5px 10px;text-align:center; border-radius: 8px}
+.wp-caption.alignnone{margin:5px 20px 20px 0}
+.wp-caption.alignleft{margin:5px 20px 20px 0}
+.wp-caption.alignright{margin:5px 0 20px 20px}
+.wp-caption.alignleft, .wp-caption.alignright { max-width: 50% !important }
+.wp-caption img{border:0 none;height:auto;margin:0;max-width:98.5% !important;padding:0;}
+.wp-caption p.wp-caption-text{ font-size: .8em; line-height:17px;margin:0;padding:0 4px 5px}
+/* End */
+
+/* These, along with the function in functions.php, makes sure centered images are centered but scale. */
+.image-caption-center > .wp-caption { width: auto !important; max-width: auto !important; display: inline-block !important; }
+.image-caption-center { text-align: center; }
+
